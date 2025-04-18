@@ -54,34 +54,9 @@ body header nav div:last-child {
     flex-shrink: 0;
 }
 
-
 body header nav div img {   
     height: 50px;
     width: auto;
     max-width: 100%;
     object-fit: contain;
 }
-
-
-/* body header nav img {
-    width: 83px;
-    height: 76px;
-} */
-
-/* .eczar-<uniquifier> {
-    font-family: "Eczar", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-} */
-
-/* 
-.inter-<uniquifier> {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-}
- */
-
-/* definir fontes do google */
