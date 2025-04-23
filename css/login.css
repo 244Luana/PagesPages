@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: Inter, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to right, #ffffff 50%, #01232F 50%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 7%;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 40%;
+    gap: 20px;
+}
+
+header h1 {
+    font-size: 35px;
+    color: #01232F;
+    font-weight: 500;
+    font-family: 'Eczar', serif;
+    text-align: left;
+}
+
+header form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+header form label {
+    font-size: 16px;
+    color: #01232F;
+}
+
+header form input {
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    background-color: #f0f0f0;
+    font-size: 14px;
+}
+
+header form a {
+    font-size: 12px;
+    color: #01232F;
+    text-align: right;
+    text-decoration: none;
+}
+
+header form button {
+    background-color: #A6F1F1;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #01232F;
+    cursor: pointer;
+    width: 50%;
+    margin: 20px auto 0 auto;
+    display: block;
+}
+
+header form p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+header form p a {
+    font-weight: bold;
+    color: #01232F;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+header img {
+    max-width: 650px;
+    height: auto;
+}
+
+/*
+body header nav {
+    display: flex;
+    background-color: #01232F;
+    height: 70px;
+    color: white;
+    font-size: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header nav div a{
+    margin:20px;
+}
+
+body header nav div input {
+    background-color: rgba(217, 217, 217, 0.25);
+    background-image: url("../img/LoupeIcon.png");
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+    color: #ffff;
+    padding: 10px;
+    padding-left: 10%;
+    border: none;
+    border-radius: 20px;
+    min-width: 250px;
+}
+
+body header nav div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-height: 40px;
+    padding-right: 60px; 
+    overflow: hidden;    
+    flex-shrink: 0;
+}
+
+
+body header nav div img {   
+    height: 50px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+/* body header nav img {
+    width: 83px;
+    height: 76px;
+} */
+
+/* .eczar-<uniquifier> {
+    font-family: "Eczar", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+} */
+
+/* 
+.inter-<uniquifier> {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+ */
+
+/* definir fontes do google */
