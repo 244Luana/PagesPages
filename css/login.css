@@ -67,19 +67,18 @@ header form a {
     text-decoration: none;
 }
 
-header form button {
-    background-color: #A6F1F1;
-    border: none;
-    padding: 12px;
-    border-radius: 30px;
-    font-size: 18px;
+header form a[href="index.html"] {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: #aef7f7;
+    color: #001f26;
+    text-decoration: none;
+    border-radius: 50px;
     font-weight: bold;
-    color: #01232F;
-    cursor: pointer;
-    width: 50%;
-    margin: 20px auto 0 auto;
-    display: block;
+    font-size: 18px;
+    text-align: center;
 }
+
 
 header form p {
     font-size: 14px;
