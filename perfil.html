@@ -5,21 +5,25 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>Pages & Pages</title>
         <link rel='stylesheet' type='text/css' media='screen' href='css/perfil.css'>
+        <meta name="viewport" content="width=device-width, initial-scale=1"> </head>
     </head>
 
     <body>
-        <header>
+         <header>
             <h1>Pages & Pages</h1>
-            <nav>
-                <div>
-                    <a href="index.html">Pagina Inicial</a>
+            <nav class="main-nav"> <button class="hamburger-menu" aria-label="Abrir menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <div class="nav-links"> <a href="index.html">Pagina Inicial</a>
                     <a>Reviews</a>
                     <a href="perfil.html">Meu Perfil</a>
                     <a href="login.html">Login</a>
                 </div>
-                <div>
+                <div class="search-bar">
                     <input placeholder="Busque aqui um livro ou usuário"></input>
-                    <img src="img/BooksIcon.png" alt="Livros Logo" />
+                    <img src="./img/BooksIcon.png" alt="Livros Logo" />
                 </div>
             </nav>
         </header>
@@ -76,6 +80,8 @@
                 © Copyright 2025 Alana e Luana - Web I
             </p>
         </footer>
+
+        <script src="js/script.js"></script>
     </body>
 
 </html>
